@@ -1,0 +1,5 @@
+Welcome to my repository UOPEOPLE!
+This repository is created during academic term at University of the People and the purpose of creating this repository is only for educational purpose, to keep record of files like assignments, codes, and projects, and to stay on track with the academic activities across all my devices (Phone and PC), not for plagiarism or cheating conduction.
+
+<p align = right>Major: BsCS</p>
+<p align = right>Academic Year: 2026/2027</p>
