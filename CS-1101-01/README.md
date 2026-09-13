@@ -10,3 +10,16 @@
 > [!NOTE]
 > This folder is created during academic term at University of the People and the purpose of creating this folder is only for educational purpose, to keep record of files like assignments, codes, and projects, and to stay on track with the academic activities across all my devices (Mobile phone & PC).
 
+---
+> [!NOTE]
+> To run the code in this directory, you must have Python3 installed on your machine
+
+> [!TIP]
+> Use command below to run code from terminal
+```bash
+python3 <name_of_file>
+```
+> [!CAUTION]
+> Check the code before your run it. No file makes modification to the machine
+---
+Author: [Usman Saheed (kenbil)](https://www.github.com/kenbil1119)
