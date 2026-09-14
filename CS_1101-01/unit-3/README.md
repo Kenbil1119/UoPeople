@@ -9,7 +9,9 @@
 <p><b>Academic Year: </b> 2026/2027</p>
 </details>
 Folder contains python codes, demostrating the use of <b>loop</b> with <b>list</b> for students' name list.
+
 ---
+
 > [!NOTE]
 > This folder is not created to be use for plagiarism or cheat conduction. It is created for educational purpose and accessibility accross my devices (Mobile Phone & PC)
 
@@ -20,5 +22,7 @@ python3 <file_name>
 ```
 > [!CAUTION]
 > Python3 must be installed on your machine before usingthe command above
+
 ---
+
 Author: [Usman Saheed (kenbil)](https://www.github.com/kenbil1119)
