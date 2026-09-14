@@ -1,5 +1,5 @@
-# Unit 2 Programming Fundamental
-## Assignment
+# Programming Fundamental
+## Unit 3: Assignment
 <details align = right>
     <summary>Info</summary>
 <p><b>Major: </b> BsCS</p>
@@ -8,9 +8,7 @@
 <p><b>Due: </b>Sep 17, 2026<p>
 <p><b>Academic Year: </b> 2026/2027</p>
 </details>
-<h3>Unit 3</h3><h3 align=right>Due: Sep 17, 2026</h3>
 Folder contains python codes, demostrating the use of <b>loop</b> with <b>list</b> for students' name list.
-
 ---
 > [!NOTE]
 > This folder is not created to be use for plagiarism or cheat conduction. It is created for educational purpose and accessibility accross my devices (Mobile Phone & PC)
