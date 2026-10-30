@@ -6,20 +6,20 @@ The application is designed to provide meal suggestions for an average Nigerian 
 
 📌 Table of Contents
 
-- "Overview" (#overview)
-- "Features" (#features)
-- "Technologies Used" (#technologies-used)
-- "Project Structure" (#project-structure)
-- "Requirements" (#requirements)
-- "Installation" (#installation)
-- "Usage" (#usage)
-- "How It Works" (#how-it-works)
-- "Sample Output" (#sample-output)
-- "Limitations" (#limitations)
-- "Possible Improvements" (#possible-improvements)
-- "Author" (#author)
+- ["Overview"] (#overview)
+- ["Features"] (#features)
+- ["Technologies Used"] (#technologies-used)
+- ["Project Structure"] (#project-structure)
+- ["Requirements"] (#requirements)
+- ["Installation"] (#installation)
+- ["Usage"] (#usage)
+- ["How It Works"] (#how-it-works)
+- ["Sample Output"] (#sample-output)
+- ["Limitations"] (#limitations)
+- ["Possible Improvements"] (#possible-improvements)
+- ["Author"] (#author)
 
-📖 Overview
+## 📖 Overview
 
 The Food Menu Roster Generator is a command-line Python program that randomly selects meals from a predefined menu list to create a four-week roster.
 
@@ -33,7 +33,7 @@ The program organizes the roster into seven days per week, with three meal categ
 
 The menu selections are randomized, allowing different meal combinations to appear each time the program runs.
 
-✨ Features
+## ✨ Features
 
 - Automatic Month Detection: Retrieves the current month using Python's "datetime" module.
 - Randomized Meal Selection: Selects menu items randomly using Python's "random" module.
@@ -43,7 +43,7 @@ The menu selections are randomized, allowing different meal combinations to appe
 - External Text Files: Stores menu items and quotes in separate text files, making the content easy to update without modifying the Python source code.
 - Simple Command-Line Interface: Displays the roster directly in the terminal.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3: The programming language used to develop the application.
 - "random": Selects random menu items and food-related quotes.
@@ -52,21 +52,24 @@ The menu selections are randomized, allowing different meal combinations to appe
 
 All Python modules used by the program are part of the Python standard library. No external Python packages are required.
 
-📁 Project Structure
+## 📁 Project Structure
 
 The project consists of three files:
 
+```text
 menu/
 ├── food_roster.py
 ├── menu_list.txt
 └── food_quotes.txt
-
+```
+```text
 File| Description
 "food_roster.py"| Contains the Python code that generates and displays the menu roster.
 "menu_list.txt"| Contains menu items used for randomized meal selection.
 "food_quotes.txt"| Contains quotes related to food, nutrition, and healthcare.
+```
 
-📋 Requirements
+## 📋 Requirements
 
 Before running the application, ensure that you have:
 
@@ -74,47 +77,50 @@ Before running the application, ensure that you have:
 - All three project files in the same directory.
 - Read access to "menu_list.txt" and "food_quotes.txt".
 
-You can verify your Python installation by running:
-
+> [!TIP]
+> You can verify your Python installation by running:
+```bash
 python --version
-
-Depending on your environment, you may need to use:
-
+```
+> Depending on your environment, you may need to use:
+```bash
 python3 --version
-
-🚀 Installation
+```
+## 🚀 Installation
 
 1. Clone the repository
 
 Open your terminal and run:
-
+```bash
 git clone https://github.com/Kenbil1119/UoPeople.git
-
+```
 2. Navigate to the project directory
-
+```bash
 cd UoPeople/menu
-
+```
 3. Verify the project files
 
-Ensure that the following files are present:
+> [!NOTE]
+> Ensure that the following files are present:
 
+```text
 food_roster.py
 menu_list.txt
 food_quotes.txt
-
+```
 4. Run the application
 
 On Windows, Linux, or macOS, run:
-
+```bash
 python food_roster.py
-
+```
 If your system uses "python3" to invoke Python, run:
-
+```bash
 python3 food_roster.py
-
+```
 The program will display the generated menu roster in your terminal.
 
-💻 Usage
+## 💻 Usage
 
 Once the application starts, it automatically:
 
@@ -125,11 +131,13 @@ Once the application starts, it automatically:
 5. Displays a quote for each week.
 6. Prints breakfast, lunch, and dinner suggestions for each day.
 
-No interactive input is required.
+> [!NOTE]
+> No interactive input is required.
 
-To generate another roster, run the program again. The randomized selections may produce a different combination of meals and quotes.
+> [!TIP]
+> To generate another roster, run the program again. The randomized selections may produce a different combination of meals and quotes.
 
-⚙️ How It Works
+## ⚙️ How It Works
 
 1. Importing the required modules
 
@@ -140,57 +148,64 @@ The "random" module provides random selection, while "datetime" retrieves inform
 
 2. Defining the days of the week
 
+```python
 days = (
     'SUNDAY', 'MONDAY', 'TUESDAY', 'WEDNESDAY',
     'THURSDAY', 'FRIDAY', 'SATURDAY'
 )
-
+```
 A tuple stores the seven days of the week. The program iterates over this tuple to organize the daily meal suggestions.
 
 3. Retrieving the current month
 
+```python
 month = datetime.today().strftime('%B')
-
+```
 This expression obtains the current system date and formats the month as its full name, such as "October".
 
 The month is used in the roster heading.
 
 4. Reading the external text files
 
+```python
 with open('menu_list.txt', 'r') as menu_list:
     menus = menu_list.readlines()
 
 with open('food_quotes.txt', 'r') as quotes:
     quotes = quotes.readlines()
-
+```
 The program reads the contents of both text files into lists.
 
 Each line becomes an element in its corresponding list, allowing the program to select individual menu items and quotes.
 
 5. Generating the four-week roster
 
+```python
 for week in range(4):
-
+```
 The outer loop runs four times, producing four weekly sections.
 
 Within each week, the program displays a randomly selected quote and iterates through the seven days.
 
 6. Selecting daily meals
 
+```python
 for meal in ('Breakfast', 'Lunch', 'Dinner'):
     print(f"{meal}: {random.choice(menus)}", end='')
+```
 
 For every day, the inner loop displays three meal categories.
 
-The "random.choice()" function selects a menu item from the loaded menu list for each category.
+The ```random.choice()``` function selects a menu item from the loaded menu list for each category.
 
 Because each selection is independent, the same menu item may appear more than once, including on the same day.
 
-🖥️ Sample Output
+## 🖥️ Sample Output
 
 The following is an illustrative example of how the application may display its results. Actual meals and quotes depend on the contents of your text files and the random selections made when the program runs.
 
-              -----=== October Menu Roster===-----
+```text              
+             -----=== October Menu Roster===-----
 
                   __________________
                  | WEEK 1 menu list |
@@ -208,11 +223,11 @@ Lunch: Eba and egusi soup
 Dinner: Yam porridge
 
 ...
-
+```
 The actual output formatting depends on the menu items, quotes, and spacing produced by your code.
 
 > [!NOTE]
-> ⚠️ Limitations
+> ## ⚠️ Limitations
 > The current implementation has some limitations:
 
 > - Fixed duration: The program generates four weeks regardless of the number of weeks in the current month.
@@ -223,7 +238,7 @@ The actual output formatting depends on the menu items, quotes, and spacing prod
 > - Limited error handling: The program does not explicitly handle missing files or empty menu and quote lists.
 > - No persistence: The generated roster is displayed in the terminal but is not saved automatically.
 
-🔮 Possible Improvements
+## 🔮 Possible Improvements
 
 Future versions could include:
 
@@ -239,11 +254,11 @@ Future versions could include:
 
 These are potential future enhancements and are not currently implemented.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Usman K. Saheed
 
-GitHub: "@Kenbil1119" (https://github.com/Kenbil1119)
+GitHub: ["@Kenbil1119"] (https://github.com/Kenbil1119)
 
 ---
 
