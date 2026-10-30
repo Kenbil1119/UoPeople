@@ -8,7 +8,7 @@ The application is designed to provide meal suggestions for an average Nigerian 
 
 - [Overview](#-overview)
 - [Features](#-features)
-- [Technologies Used](#-technologies-used)
+- [Technologies Used](#%EF%B8%8F-technologies-used)
 - [Project Structure](#-project-structure)
 - [Requirements](#-requirements)
 - [Installation](#-installation)
@@ -17,7 +17,7 @@ The application is designed to provide meal suggestions for an average Nigerian 
 - [Sample Output](#-sample-output)
 - [Limitations](#-limitations)
 - [Possible Improvements](#-possible-improvements)
-- [Author](#-author)
+- [Author](#%E2%80%8D-author)
 
 ## 📖 Overview
 
