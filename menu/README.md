@@ -6,7 +6,7 @@ The application is designed to provide meal suggestions for an average Nigerian 
 
 📌 Table of Contents
 
-- [Overview](#overview)
+- [Overview](#-overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
