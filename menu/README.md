@@ -7,17 +7,17 @@ The application is designed to provide meal suggestions for an average Nigerian 
 📌 Table of Contents
 
 - [Overview](#-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [How It Works](#how-it-works)
-- [Sample Output](#sample-output)
-- [Limitations](#limitations)
-- [Possible Improvements](#possible-improvements)
-- [Author](##Author)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Requirements](#-requirements)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [How It Works](#-how-it-works)
+- [Sample Output](#-sample-output)
+- [Limitations](#-limitations)
+- [Possible Improvements](#-possible-improvements)
+- [Author](#-author)
 
 ## 📖 Overview
 
