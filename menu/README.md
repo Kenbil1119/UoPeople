@@ -17,7 +17,7 @@ The application is designed to provide meal suggestions for an average Nigerian 
 - [Sample Output](#sample-output)
 - [Limitations](#limitations)
 - [Possible Improvements](#possible-improvements)
-- [Author](##author)
+- [Author](## Author)
 
 ## 📖 Overview
 
