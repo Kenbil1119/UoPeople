@@ -6,18 +6,18 @@ The application is designed to provide meal suggestions for an average Nigerian 
 
 📌 Table of Contents
 
-- ["Overview"] (#overview)
-- ["Features"] (#features)
-- ["Technologies Used"] (#technologies-used)
-- ["Project Structure"] (#project-structure)
-- ["Requirements"] (#requirements)
-- ["Installation"] (#installation)
-- ["Usage"] (#usage)
-- ["How It Works"] (#how-it-works)
-- ["Sample Output"] (#sample-output)
-- ["Limitations"] (#limitations)
-- ["Possible Improvements"] (#possible-improvements)
-- ["Author"] (#author)
+- [Overview] (#overview)
+- [Features] (#features)
+- [Technologies Used] (#technologies-used)
+- [Project Structure] (#project-structure)
+- [Requirements] (#requirements)
+- [Installation] (#installation)
+- [Usage] (#usage)
+- [How It Works] (#how-it-works)
+- [Sample Output] (#sample-output)
+- [Limitations] (#limitations)
+- [Possible Improvements] (#possible-improvements)
+- [Author] (#author)
 
 ## 📖 Overview
 
@@ -258,8 +258,7 @@ These are potential future enhancements and are not currently implemented.
 
 Usman K. Saheed
 
-GitHub: ["@Kenbil1119"] (https://github.com/Kenbil1119)
-
+GitHub: [@Kenbil1119](https://github.com/Kenbil1119)
 ---
 
 This project demonstrates the practical use of Python's built-in libraries, tuples, loops, file handling, formatted strings, and random selection.
