@@ -264,7 +264,7 @@ GitHub: [@Kenbil1119](https://github.com/Kenbil1119)
 
 [overview]: #-overview
 [features]: #-features
-[technologies Used]: #-technologies-used
+[technologies used]: #-technologies-used
 [project structure]: #-project-structure
 [requirements]: #-requirements
 [installation]: #-installation
