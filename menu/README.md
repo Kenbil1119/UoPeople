@@ -227,7 +227,7 @@ Dinner: Yam porridge
 The actual output formatting depends on the menu items, quotes, and spacing produced by your code.
 
 > [!NOTE]
-> ## ⚠️ Limitations
+> ## ⚠️  Limitations
 > The current implementation has some limitations:
 > - Fixed duration: The program generates four weeks regardless of the number of weeks in the current month.
 > - No date assignment: It displays the days of the week without assigning specific calendar dates to them.
@@ -253,7 +253,7 @@ Future versions could include:
 
 These are potential future enhancements and are not currently implemented.
 
-## 👨‍💻 Author
+## 👨‍💻  Author
 
 Usman K. Saheed
 
