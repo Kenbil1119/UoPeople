@@ -8,15 +8,15 @@ The application is designed to provide meal suggestions for an average Nigerian 
 
 - [Overview][overview]
 - [Features][features]
-- [Technologies Used][technologies-used]
-- [Project Structure][project-structure]
+- [Technologies Used][technologies used]
+- [Project Structure][project structure]
 - [Requirements][requirements]
 - [Installation][installation]
 - [Usage][usage]
-- [How It Works][how-it-works]
-- [Sample Output][sample-output]
+- [How It Works][how it works]
+- [Sample Output][sample output]
 - [Limitations][limitations]
-- [Possible Improvements][possible-improvements]
+- [Possible Improvements][possible improvements]
 - [Author][author]
 
 ## 📖 Overview
@@ -262,15 +262,15 @@ GitHub: [@Kenbil1119](https://github.com/Kenbil1119)
 
 > This project demonstrates the practical use of Python's built-in libraries, tuples, loops, file handling, formatted strings, and random selection.
 
-[Overview]: #-overview
+[overview]: #-overview
 [features]: #-features
-[Technologies Used]: #-technologies-used
-[Project Structure]: #-project-structure
-[Requirements]: #-requirements
-[Installation]: #-installation
-[Usage]: #-usage
-[How It Works]: #-how-it-works
-[Sample Output]: #-sample-output
-[Limitations]: #-limitations
-[Possible Improvements]: #-possible-improvements
-[Author]: #-author
+[technologies Used]: #-technologies-used
+[project structure]: #-project-structure
+[requirements]: #-requirements
+[installation]: #-installation
+[usage]: #-usage
+[how it works]: #-how-it-works
+[sample output]: #-sample-output
+[limitations]: #-limitations
+[possible improvements]: #-possible-improvements
+[author]: #-author
