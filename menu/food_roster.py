@@ -21,6 +21,6 @@ for week in range(4):
     print(random.choice(quotes))
     for day in days:
         print(f"{day:^20}")
-        for meal in ('Breakfast', 'Launch', 'Dinner'):
+        for meal in ('Breakfast', 'Lunch', 'Dinner'):
             print(f"{meal}: {random.choice(menus)}", end='')
         print()

@@ -261,4 +261,4 @@ Usman K. Saheed
 GitHub: [@Kenbil1119](https://github.com/Kenbil1119)
 ---
 
-This project demonstrates the practical use of Python's built-in libraries, tuples, loops, file handling, formatted strings, and random selection.
+> This project demonstrates the practical use of Python's built-in libraries, tuples, loops, file handling, formatted strings, and random selection.
