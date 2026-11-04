@@ -229,7 +229,6 @@ The actual output formatting depends on the menu items, quotes, and spacing prod
 > [!NOTE]
 > ## ⚠️ Limitations
 > The current implementation has some limitations:
-
 > - Fixed duration: The program generates four weeks regardless of the number of weeks in the current month.
 > - No date assignment: It displays the days of the week without assigning specific calendar dates to them.
 > - Random repetition: The same meal can appear multiple times in the roster.
