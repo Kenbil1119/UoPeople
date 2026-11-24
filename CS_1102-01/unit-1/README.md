@@ -207,11 +207,11 @@ Example 1: Excellent Performance
 Input:
 
 Please, enter mark
-<i>mark_subject_1: 95
+mark_subject_1: 95
 mark_subject_2: 92
 mark_subject_3: 88
 mark_subject_4: 96
-mark_subject_5: 94</i>
+mark_subject_5: 94
 
 Output:
 
@@ -226,11 +226,10 @@ Example 2: Very Good Performance
 Input:
 
 Please, enter mark
-_mark_subject_1: 85_
-_mark_subject_2: 82_
-_mark_subject_3: 88_
-_mark_subject_4: 84_
-_mark_subject_5: 86_
+mark_subject_1: 85
+mark_subject_2: 82
+mark_subject_3: 88mark_subject_4: 84
+mark_subject_5: 86
 
 Output:
 
@@ -245,11 +244,11 @@ Example 3: Satisfactory Performance
 Input:
 
 Please, enter mark
-_mark_subject_1: 75_
-_mark_subject_2: 72_
-_mark_subject_3: 78_
-_mark_subject_4: 74_
-_mark_subject_5: 76_
+mark_subject_1: 75
+mark_subject_2: 72
+mark_subject_3: 78
+mark_subject_4: 74
+mark_subject_5: 76
 
 Output:
 
@@ -264,11 +263,11 @@ Example 4: Unsatisfactory Performance
 Input:
 
 Please, enter mark
-_mark_subject_1: 60_
-_mark_subject_2: 65_
-_mark_subject_3: 55_
-_mark_subject_4: 68_
-_mark_subject_5: 62_
+mark_subject_1: 60
+mark_subject_2: 6_
+mark_subject_3: 55
+mark_subject_4: 68
+mark_subject_5: 62
 
 Output:
 
@@ -283,9 +282,9 @@ Example 5: Invalid Input
 Input:
 
 Please, enter mark
-_mark_subject_1: 85_
-_mark_subject_2: 90_
-_mark_subject_3: abc_
+mark_subject_1: 85
+mark_subject_2: 90
+mark_subject_3: abc
 
 Output:
 
