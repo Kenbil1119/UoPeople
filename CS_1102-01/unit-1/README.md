@@ -37,17 +37,19 @@ The primary objectives of this application are to:
 - Present the final academic results in a formatted table.
 
 ## 3. Technologies Used
-The application was developed using the following technologies and Java programming features:
 
-Technology / Feature| Purpose
-Java| Primary programming language
-Scanner Class| Accepts user input through the console
-Arrays| Stores marks for the five subjects
-For Loops| Collects and processes subject marks
-If-Else Statements| Validates marks and determines grades
-Switch Statement| Displays the corresponding performance message
-Methods| Separates grade calculation and performance reporting
-printf()| Formats the output for readability
+The application was developed using Java and several fundamental programming features.
+
+| Technology / Feature | Purpose |
+|:---|:---|
+| Java | Primary programming language. |
+| Scanner Class | Accepts user input through the console. |
+| Arrays | Stores marks for five subjects. |
+| For Loops | Collects and processes subject marks. |
+| If-Else Statements | Validates marks and determines grades. |
+| Switch Statement | Displays the corresponding performance message. |
+| Methods | Separates grade calculation and performance reporting. |
+| printf() | Formats the output for readability. |
 
 ## 4. System Requirements
 
@@ -85,22 +87,25 @@ The `calculateGrade()` method calculates the student's average mark and determin
 
 It accepts two parameters:
 
-- "totalMarks": The sum of marks obtained across the five subjects.
+- `totalMarks`: The sum of marks obtained across the five subjects.
 - "noSubjects": The number of subjects used to calculate the average.
 
 The average is calculated using:
 
-"average = totalMarks / noSubjects"
+```Java
+average = totalMarks / noSubjects
+```
 
 The method then evaluates the average using conditional statements and returns the appropriate letter grade.
 
 ### Grading Scale
 
 Average Mark| Grade| Description
-90–100| A| Excellent Performance
-80–89.99| B| Very Good Performance
-70–79.99| C| Satisfactory Performance
-Below 70| F| Unsatisfactory Performance
+|:---|:---|:---|
+90–100| A| Excellent Performance |
+80–89.99| B| Very Good Performance | 
+70–79.99| C| Satisfactory Performance |
+Below 70| F| Unsatisfactory Performance |
 
 The grading conditions also accommodate decimal averages. For example, an average of 89.5 receives a B, while an average of 90 receives an A.
 
@@ -112,10 +117,10 @@ It uses a switch statement to evaluate the grade and display the appropriate mes
 
 The messages are:
 
-- A: Excellent Performance!
-- B: Very Good Performance!
-- C: Satisfactory Performance!
-- F: Unsatisfactory Performance!
+- __A__: Excellent Performance!
+- __B__: Very Good Performance!
+- __C__: Satisfactory Performance!
+- __F__: Unsatisfactory Performance!
 
 The default case handles any grade that does not match A, B, or C by displaying the unsatisfactory performance message.
 
@@ -198,11 +203,11 @@ Example 1: Excellent Performance
 Input:
 
 Please, enter mark
-mark_subject_1: 95
+_mark_subject_1: 95
 mark_subject_2: 92
 mark_subject_3: 88
 mark_subject_4: 96
-mark_subject_5: 94
+mark_subject_5: 94_
 
 Output:
 
@@ -217,11 +222,11 @@ Example 2: Very Good Performance
 Input:
 
 Please, enter mark
-mark_subject_1: 85
+_mark_subject_1: 85
 mark_subject_2: 82
 mark_subject_3: 88
 mark_subject_4: 84
-mark_subject_5: 86
+mark_subject_5: 86_
 
 Output:
 
@@ -236,77 +241,89 @@ Example 3: Satisfactory Performance
 Input:
 
 Please, enter mark
-mark_subject_1: 75
+_mark_subject_1: 75
 mark_subject_2: 72
 mark_subject_3: 78
 mark_subject_4: 74
-mark_subject_5: 76
+mark_subject_5: 76_
 
 Output:
 
+```Bash
 -----[Satisfactory Performance!]-----
    Total  |  Average  |  Grade
  375.00   |  75.00    |    C
+```
 
 Example 4: Unsatisfactory Performance
 
 Input:
 
 Please, enter mark
-mark_subject_1: 60
+_mark_subject_1: 60
 mark_subject_2: 65
 mark_subject_3: 55
 mark_subject_4: 68
-mark_subject_5: 62
+mark_subject_5: 62_
 
 Output:
 
+```Bash
 -----[Unsatisfactory Performance!]-----
    Total  |  Average  |  Grade
  310.00   |  62.00    |    F
+```
 
 Example 5: Invalid Input
 
 Input:
 
 Please, enter mark
-mark_subject_1: 85
+_mark_subject_1: 85
 mark_subject_2: 90
-mark_subject_3: abc
+mark_subject_3: abc_
 
 Output:
 
+```Bash
 Invalid input - Marks must be between 0 and 100 (inclusive)
+```
 
 The program terminates immediately after detecting the invalid input.
 
-9. Calculation Logic
+## 9. Calculation Logic
 
 The application uses a straightforward mathematical approach to calculate academic results.
 
-Total Marks
+### Total Marks
 
 The total is obtained by adding the marks stored in the array.
 
-"Total = Mark1 + Mark2 + Mark3 + Mark4 + Mark5"
+```Java
+Total = Mark1 + Mark2 + Mark3 + Mark4 + Mark5
+```
 
-Average Marks
+### Average Marks
 
 The average is calculated by dividing the total marks by the number of subjects.
 
-"Average = Total Marks / 5"
+```Java
+Average = Total Marks / 5
+```
 
-Grade Determination
+### Grade Determination
 
 The calculated average is compared against the grading scale to determine the appropriate letter grade.
 
 For example, if a student obtains a total of 425 marks across five subjects:
 
-"Average = 425 / 5 = 85"
+```Java
+Average = 425 / 5 = 85
+```
 
 Since 85 falls within the 80–89.99 range, the student receives a B, representing Very Good Performance.
 
-10. Important Program Characteristics and Limitations
+## 10. Important Program Characteristics and Limitations
 
 The following characteristics describe the current implementation:
 
@@ -319,7 +336,7 @@ The following characteristics describe the current implementation:
 - The application does not currently store student names, registration numbers, or results in an external file or database.
 - The application processes one student's results per execution.
 
-11. Conclusion
+## 11. Conclusion
 
 The Student Marks Recording System demonstrates how fundamental Java programming concepts can be combined to develop a practical academic results application.
 
