@@ -1,5 +1,4 @@
 # Introduction to Java
-## Student Marks Recording System
 <details align = right>
     <summary>Course Info</summary>
 <p><b>Major:</b> BsCS</p>
@@ -16,6 +15,7 @@
 <p>__Programming Language__: Java</p>
 <p>__Application Type__: Console-Based Application</p>
 </details>
+
 ---
 1. Project Overview
 
