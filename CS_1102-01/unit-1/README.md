@@ -207,11 +207,11 @@ Example 1: Excellent Performance
 Input:
 
 Please, enter mark
-_mark_subject_1: 95_
-_mark_subject_2: 92_
-_mark_subject_3: 88_
-_mark_subject_4: 96_
-_mark_subject_5: 94_
+<i>mark_subject_1: 95
+mark_subject_2: 92
+mark_subject_3: 88
+mark_subject_4: 96
+mark_subject_5: 94</i>
 
 Output:
 
