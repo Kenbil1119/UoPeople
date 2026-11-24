@@ -10,14 +10,14 @@
 ## Student Marks Recording System
 <details align = right>
     <summary>Program Info</summary>
-<p>__Project Name__: Student Marks Recording System.</p>
-<p>__Source File__: Record_mark.java"</p>
-<p>__Programming Language__: Java</p>
-<p>__Application Type__: Console-Based Application</p>
+<p><b>Project Name</b>: Student Marks Recording System.</p>
+<p><b>Source File</b>: Record_mark.java"</p>
+<p><b>Programming Language</b>: Java</p>
+<p><b>Application Type</b>: Console-Based Application</p>
 </details>
 
 ---
-1. Project Overview
+## 1. Project Overview
 
 The Student Marks Recording System is a simple Java console-based application designed to record and process students' academic marks across five subjects. It accepts marks entered by the user, validates the inputs, calculates the student's total and average marks, and determines the corresponding letter grade based on a predefined grading scale.
 
@@ -25,6 +25,7 @@ The program also provides a performance summary that describes the student's aca
 
 This project demonstrates fundamental Java programming concepts, including arrays, loops, conditional statements, methods, user input handling, data validation, and switch statements.
 
+## 2. Program Objectives
 The primary objectives of this application are to:
 - Accept academic marks for five subjects.
 - Validate user inputs to ensure that they are numeric values.
@@ -35,7 +36,7 @@ The primary objectives of this application are to:
 - Display a performance description corresponding to the assigned grade.
 - Present the final academic results in a formatted table.
 
-3. Technologies Used
+## 3. Technologies Used
 The application was developed using the following technologies and Java programming features:
 
 Technology / Feature| Purpose
@@ -48,7 +49,7 @@ Switch Statement| Displays the corresponding performance message
 Methods| Separates grade calculation and performance reporting
 printf()| Formats the output for readability
 
-4. System Requirements
+## 4. System Requirements
 
 To compile and execute this program, the following are required:
 
@@ -56,13 +57,13 @@ To compile and execute this program, the following are required:
 - Code Editor or IDE: Visual Studio Code, IntelliJ IDEA, Eclipse, or any Java-compatible editor.
 - Terminal or Command Prompt: To compile and execute the Java application.
 
-5. Program Structure
+## 5. Program Structure
 
 The application contains three main methods:
 
-A. main() Method
+### A. main() Method
 
-The "main()" method serves as the entry point of the application.
+The `main()` method serves as the entry point of the application.
 
 Its responsibilities include:
 
@@ -72,15 +73,15 @@ Its responsibilities include:
 4. Using a for loop to collect marks for each subject.
 5. Validating each input to ensure it is numeric and within the acceptable range.
 6. Calculating the total marks after successful validation.
-7. Calling the "calculateGrade()" method to determine the letter grade.
-8. Calling the "printPerformance()" method to display the performance description.
+7. Calling the `calculateGrade()` method to determine the letter grade.
+8. Calling the `printPerformance()` method to display the performance description.
 9. Displaying the total marks, average, and letter grade.
 
 If an invalid input is detected, the program displays an error message, closes the Scanner object, and terminates execution.
 
-B. calculateGrade() Method
+### B. calculateGrade() Method
 
-The "calculateGrade()" method calculates the student's average mark and determines the corresponding letter grade.
+The `calculateGrade()` method calculates the student's average mark and determines the corresponding letter grade.
 
 It accepts two parameters:
 
@@ -93,7 +94,7 @@ The average is calculated using:
 
 The method then evaluates the average using conditional statements and returns the appropriate letter grade.
 
-Grading Scale
+### Grading Scale
 
 Average Mark| Grade| Description
 90–100| A| Excellent Performance
@@ -103,9 +104,9 @@ Below 70| F| Unsatisfactory Performance
 
 The grading conditions also accommodate decimal averages. For example, an average of 89.5 receives a B, while an average of 90 receives an A.
 
-C. printPerformance() Method
+### C. printPerformance() Method
 
-The "printPerformance()" method displays a performance message based on the letter grade returned by the "calculateGrade()" method.
+The `printPerformance()` method displays a performance message based on the letter grade returned by the `calculateGrade()` method.
 
 It uses a switch statement to evaluate the grade and display the appropriate message.
 
@@ -118,25 +119,27 @@ The messages are:
 
 The default case handles any grade that does not match A, B, or C by displaying the unsatisfactory performance message.
 
-6. Input Validation
+## 6. Input Validation
 
 Input validation is an important part of this application because it helps maintain the accuracy and reliability of the results.
 
 The program implements two levels of input validation:
 
-1. Data Type Validation
+### 1. Data Type Validation
 
-The "hasNextDouble()" method checks whether the user's input can be interpreted as a double value.
+The `hasNextDouble()` method checks whether the user's input can be interpreted as a double value.
 
 This prevents non-numeric inputs, such as letters and words, from being accepted as marks.
 
-2. Range Validation
+### 2. Range Validation
 
 After confirming that the input is numeric, the program checks whether the mark falls between 0 and 100, inclusive.
 
 The condition is:
 
-"marks[i] >= 0 && marks[i] <= 100"
+```Java
+marks[i] >= 0 && marks[i] <= 100
+```
 
 Any mark below 0 or above 100 is rejected.
 
@@ -146,45 +149,49 @@ If either validation fails, the program displays:
 
 The application then terminates without calculating or displaying the student's results.
 
-7. How to Run the Program
+## 7. How to Run the Program
 
 Follow these instructions to execute the application.
 
-Step 1: Save the Source Code
+__Step 1__: Save the Source Code
 
 Save the Java source code in a file named:
 
-"Record_mark.java"
+"__Record_mark.java__"
 
-The filename must match the public class name, "Record_mark".
+The filename must match the public class name, "__Record_mark__".
 
-Step 2: Open the Terminal
+__Step 2__: Open the Terminal
 
 Navigate to the directory containing the Java source file.
 
-Step 3: Compile the Program
+__Step 3__: Compile the Program
 
 Execute the following command:
 
+```Java
 javac Record_mark.java
+```
 
 If compilation is successful, Java generates a compiled class file named:
 
-"Record_mark.class"
+"__Record_mark.class__"
 
-Step 4: Execute the Program
+__Step 4__: Execute the Program
 
 Run the application using:
 
+```Java
 java Record_mark
+```
 
-Step 5: Enter Subject Marks
+__Step 5__: Enter Subject Marks
 
 The program will prompt you to enter marks for five subjects.
 
 Enter a valid numeric mark between 0 and 100 for each subject.
 
-8. Sample Program Execution
+## 8. Sample Program Execution
 
 Example 1: Excellent Performance
 
@@ -199,9 +206,11 @@ mark_subject_5: 94
 
 Output:
 
+```Bash
 -----[Excellent Performance!]-----
    Total  |  Average  |  Grade
  465.00   |  93.00    |    A
+```
 
 Example 2: Very Good Performance
 
@@ -216,9 +225,11 @@ mark_subject_5: 86
 
 Output:
 
+```Bash
 -----[Very good Performance!]-----
    Total  |  Average  |  Grade
  425.00   |  85.00    |    B
+```
 
 Example 3: Satisfactory Performance
 
