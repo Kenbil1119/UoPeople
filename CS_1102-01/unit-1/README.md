@@ -88,7 +88,7 @@ The `calculateGrade()` method calculates the student's average mark and determin
 It accepts two parameters:
 
 - `totalMarks`: The sum of marks obtained across the five subjects.
-- "noSubjects": The number of subjects used to calculate the average.
+- `noSubjects`: The number of subjects used to calculate the average.
 
 The average is calculated using:
 
@@ -172,9 +172,10 @@ Navigate to the directory containing the Java source file.
 
 __Step 3__: Compile the Program
 
-Execute the following command:
-
-```Java
+> [!TIPS]
+> Execute the following command:
+>
+> ```Java
 javac Record_mark.java
 ```
 
