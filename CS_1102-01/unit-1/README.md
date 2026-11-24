@@ -175,7 +175,7 @@ __Step 3__: Compile the Program
 > [!TIP]
 > Execute the following command:
 >
-> ```Java
+ ```Java
 javac Record_mark.java
 ```
 
@@ -185,8 +185,11 @@ If compilation is successful, Java generates a compiled class file named:
 
 __Step 4__: Execute the Program
 
-Run the application using:
+Run the application
 
+> [!TIP]
+> Use the following command:
+>
 ```Java
 java Record_mark
 ```
