@@ -172,7 +172,7 @@ Navigate to the directory containing the Java source file.
 
 __Step 3__: Compile the Program
 
-> [!TIPS]
+[!TIPS]
 > Execute the following command:
 >
 > ```Java
