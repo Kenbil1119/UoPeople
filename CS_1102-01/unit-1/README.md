@@ -6,7 +6,7 @@
 <p><b>Instructor:</b> Amer Al-Rahayfeh</p>
 <p><b>Academic Year: </b> 2026/2027</p>
 </details>
-<summary>
+
 ## Student Marks Recording System
 <details align = right>
     <summary>Program Info</summary>
